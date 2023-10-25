@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    padding: 30px;
+    justify-content:space-between;
+    gap: 150px;
+}
+.one div{
+    width: 400px;
+    height: 50px;
+    background-color: brown;
+}
+.two{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(122, 53, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.two1,.two2{
+    width: 400px;
+    height: 300px;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+}
+.two21,.two22{
+    width:  300px;
+    height: 120px;
+    margin: auto;
+    background-color: brown;
+}
+    
